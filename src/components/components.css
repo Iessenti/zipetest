@@ -1,0 +1,77 @@
+
+
+/*Стили для представлений продуктов*/
+.product-post-wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}	
+.product-post {
+	width: 40%;
+	height:30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.27);
+	margin:2vh;
+	border-radius: 15px;
+	font-weight: 600;
+}
+
+.product-post img {
+	height:10vh;
+	object-fit: contain;
+	display: flex;
+}
+
+/*Стили для списка страниц*/
+.pagination {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10vh;
+}
+
+.pagination div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: #9979CB;
+	margin: 0 2vw 0 2vw;
+	font-size: 1.7em;
+}
+
+.navlink {
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.activePageNum {
+	border:2px solid #7B48CB;
+}
+
+
+
+/*order-form-wrapper*/
+
+.order-form-wrapper {
+	position: absolute;
+	z-index: 999;
+	width: 60%;
+	height: 80%;
+	background-color: white;
+	box-shadow: 0px 0px 44px 35px #9B9B9B;
+	border-radius: 20px;
+	padding:5%;
+	display: flex;
+	flex-direction: column;
+}
